@@ -78,7 +78,7 @@ client.on('interactionCreate', async interaction => {
       }
 
     })
-    await interaction.reply('Pong');
+    await interaction.reply({content: 'Done', ephemeral:true});
   }
 })
 
